@@ -3,20 +3,12 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nguyễn Quốc Vỹ &amp; Lê Thị Bích Tuyền Wedding site!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
     <meta name="application-name" content="iWedding">
-    <meta name="author" content="Biihappy.com">
-    <meta property="og:image"
-        content="https://cdn.biihappy.com/ziiweb/website/67499b0403eaacb55a0df1d4/dadc7db35082b77aefbc5bcf247eb259.jpeg">
-    <meta property="og:image:url"
-        content="https://cdn.biihappy.com/ziiweb/website/67499b0403eaacb55a0df1d4/dadc7db35082b77aefbc5bcf247eb259.jpeg">
-    <meta property="og:image:secure_url"
-        content="https://cdn.biihappy.com/ziiweb/website/67499b0403eaacb55a0df1d4/dadc7db35082b77aefbc5bcf247eb259.jpeg">
-    <link rel="shortcut icon" type="image/x-icon" href="https://iwedding.info/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./vynq/icon.png">
     <link href="./vynq/css2" rel="stylesheet">
     <link href="./vynq/css2(1)" rel="stylesheet">
     <link rel="stylesheet" href="./vynq/libs.css">
@@ -120,7 +112,9 @@
                                         <td>16</td>
                                         <td>17</td>
                                         <td>18</td>
-                                        <td><div id="today">19</div></td>
+                                        <td>
+                                            <div id="today">19</div>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>20</td>
@@ -179,8 +173,7 @@
 
                 <div data-aos="flip-left"
                     class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init">
-                    <div class="image-wrap"
-                        style="background-image: url(&#39;./vynq/NZ0A2524.JPG&#39;);">
+                    <div class="image-wrap" style="background-image: url(&#39;./vynq/NZ0A2524.JPG&#39;);">
                     </div>
                     <div class="info-wrap p-3">
                         <h5 class="section-sub-title">TIỆC CƯỚI NHÀ NAM</h5>
@@ -282,7 +275,7 @@
             });
             return parsed;
         }
-        let biicore = parseJsonRecursively('{"template_id":"643d78560be61636f4051954","templatePremium":true,"themeRoot":"https:\/\/yen-duc.iwedding.info\/templates\/template111","webroot":"https:\/\/yen-duc.iwedding.info","coreSite":"https:\/\/biihappy.com","webToken":"67499b0403eaacb55a0df1d4","isPremium":true,"bgMusic":"https:\/\/cdn.biihappy.com\/ziiweb\/wedding-musics\/BeautifulInWhite-ShaneFilan-524801.mp3","alert":"[]","effect":"{\\\"type\\\":\\\"heart\\\"}","logo":"https:\/\/iwedding.info\/common\/imgs\/bii.png?v=20210131","url_landing_page":"https:\/\/biihappy.com\/iwedding","isAutoPlay":true,"footer_title":"iWedding | N\u1ec1n t\u1ea3ng t\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed t\u1eeb Biihappy","footer_title_mobile":"T\u1ea1o website \u0111\u00e1m c\u01b0\u1edbi mi\u1ec5n ph\u00ed"}');
+        let biicore = parseJsonRecursively('{"template_id":"643d78560be61636f4051954","templatePremium":true,"themeRoot":"https://nguyenquocvy.github.io/wedding","webroot":"https:\/\/iwedding.info","webToken":"67499b0403eaacb55a0df1d4","isPremium":true,"bgMusic":"./vynq/BeautifulInWhite-ShaneFilan-524801.mp3","effect":"{\\\"type\\\":\\\"heart\\\"}","logo":"./vynq/icon.png","isAutoPlay":true}');
     </script>
     <script src="./vynq/libs.js"></script>
     <script src="./vynq/script.js"></script>
@@ -518,15 +511,7 @@
             <div class="bii-player-secondary-content">Click vào đây nếu bạn muốn phát nhạc!</div>
         </div>
         <div onclick="playPause();" class="playerIcon">
-            <span id="playerVolumeOff">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" fill="#fff"
-                    class="bi bi-volume-mute-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z">
-                    </path>
-                </svg>
-            </span>
-            <span style="display:none;" id="playerVolumeOn">
+            <span id="playerVolumeOn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" fill="#fff" class="bi bi-volume-up-fill"
                     viewBox="0 0 16 16">
                     <path
